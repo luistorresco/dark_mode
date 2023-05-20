@@ -1,0 +1,17 @@
+body {
+    background-color: #ffffff; /* Fondo blanco por defecto */
+    color: #000000; /* Texto negro por defecto */
+    transition: background-color 0.3s ease;
+}
+  
+.dark-mode{
+    background-color: #222; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+}
+  
+#toggle-btn {
+    position: fixed;  /*Posicion del bototon fija arriba a la izquierda*/
+    top: 20px;
+    right: 20px;
+}
+  
